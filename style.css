@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+
+
+.foto {
+    width: 100px; /* Ajusta el tamaño */
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+@keyframes whiteGlow {
+    0% { box-shadow: 0 0 5px #ffffff; }  /* Luz tenue */
+    50% { box-shadow: 0 0 15px #ffffff; } /* Luz más fuerte */
+    100% { box-shadow: 0 0 5px #ffffff; } /* Vuelve a luz tenue */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border: 5px solid white; /* Ajusta el borde */
+    animation: whiteGlow 3s infinite alternate; /* Hace que la luz brille suavemente */
+}
+
