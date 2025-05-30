@@ -3,6 +3,23 @@
     align-items: center;
 }
 
+.contacto, .habilidades, .experiencia {
+    background-color: #555; /* Un tono más claro que el fondo general */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+ul li {
+    background-color: #666; /* Ajusta los elementos dentro de listas */
+}
+
+
+ul li {
+    background-color: #3a3a3a; /* Oscurece los ítems dentro de las listas */
+}
+
+
 
 .foto {
     width: 100px; /* Ajusta el tamaño */
@@ -20,9 +37,29 @@
 .container {
     max-width: 800px;
     margin: auto;
-    background: white;
+    background:  #4f4f4f;
     padding: 20px;
     border: 5px solid white; /* Ajusta el borde */
     animation: whiteGlow 3s infinite alternate; /* Hace que la luz brille suavemente */
 }
 
+.contacto a {
+    color: white; /* Cambia el color del enlace a blanco */
+    text-decoration: none; /* Opcional: elimina el subrayado */
+    font-weight: bold; /* Opcional: hace el texto más fuerte */
+    transition: color 0.3s ease-in-out; /* Hace la transición suave */
+}
+
+.contacto a:hover {
+    color: #4db8ff; /* Azul claro al pasar el ratón */
+}
+
+
+.contacto a:hover {
+    color: #4db8ff; /* Azul claro al pasar el ratón */
+}
+
+
+.contacto a:hover {
+    color: lightblue; /* Cambia a gris claro cuando pasas el cursor */
+}
